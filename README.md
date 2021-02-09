@@ -66,7 +66,9 @@ git clone git@github.com:happyhung95/veikkaus-api.git
 cd veikkaus-api
 npm install
 npm run watch
+(On the first time, need to run "npm run watch" twice, so Ctrl + C the first time and run again)
 ```
+API is ready when you see this `App is running at https://localhost:3000 in production mode.  Press CTRL-C to stop`
 
 **Note:** since the task requests for secure traffic, this API was built with HTTPS server with self-signed SSL certificate. Hence, some browsers might not accept accessing the endpoints via the URL bar. **Postman (with disabled SSL verification) is recommended for testing this API**.
 
